@@ -36,6 +36,16 @@ we will use the execution-driven GPGPU-Sim simulation.
 
 ## Running your first program.
 
+### Accessing qstruct machine (if you choose to do the assignments on qstruct)
+
+You should have access to qstruct machines (Contact the TA if you can't login)
+
+```shell
+# Do an ssh to login
+ssh <username>@qstruct.ecn.purdue.edu
+```
+
+
 ### Setup
 
 There are a few dependencies you need to take care of to run the simulator.
@@ -114,6 +124,11 @@ The Accel-Sim framework provides some convinient scripts for running the apps an
 # As we get closer to the deadline, I will ask folks to dail this number down further.
 # the launching system has persistence and all the jobs you launch with run_simulations will be counted.
 ./util/job_launching/run_simulations.py -C QV100-PTX-1B_INSN -B ece695.part1 -N ptx-run -c 10
+```
+
+```bash
+# Install missing packages like below if missing packages are detected while running the above command
+pip3 install --user psutil
 ```
 
 This will launch processes running the simulator in the background.
