@@ -1,5 +1,9 @@
 # GPU Simulation Assignment Part #1
 
+## Professor: Tim Rogers <br> TA: Christin Bose
+
+## Due on Saturday, April 16 at 11:59 PM ET 
+
 ## Introduction to GPU Simulation
 
 In this assignment we will introduce you to a GPU Simulators: Accel-Sim (https://accel-sim.github.io) and GPGPU-Sim.
